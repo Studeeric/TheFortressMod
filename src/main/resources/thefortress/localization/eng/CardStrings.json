@@ -1,0 +1,32 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "UPGRADE_DESCRIPTION": "If you change the constructor of your card to use super(cardInfo, true); this will be the card's description when it is upgraded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:TacticalAttack": {
+    "NAME": "Tactical Attack",
+    "DESCRIPTION": "${modID}:Skilled. NL Gain !B! Block. NL Deal !D! damage."
+  },
+  "${modID}:EnergyDrink": {
+    "NAME": "Energy Drink",
+    "DESCRIPTION": "Gain !M! [E]."
+  },
+  "${modID}:Cracked": {
+    "NAME": "Cracked",
+    "DESCRIPTION": "Gain !M! ${modID}:Cracked."
+  },
+  "${modID}:PoisonousLayer": {
+    "NAME": "Poisonous Layer",
+    "DESCRIPTION": "Gain !M! ${modID}:Poison_Armour"
+  },
+  "${modID}:Strike_TheFortress": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  }
+}
