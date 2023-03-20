@@ -11,15 +11,11 @@
   },
   "${modID}:TacticalAttack": {
     "NAME": "Tactical Attack",
-    "DESCRIPTION": "${modID}:Skilled. NL Gain !B! Block. NL Deal !D! damage."
+    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage."
   },
   "${modID}:EnergyDrink": {
     "NAME": "Energy Drink",
     "DESCRIPTION": "Gain !M! [E]."
-  },
-  "${modID}:Cracked": {
-    "NAME": "Cracked",
-    "DESCRIPTION": "Gain !M! ${modID}:Cracked."
   },
   "${modID}:PoisonousLayer": {
     "NAME": "Poisonous Layer",
@@ -28,5 +24,13 @@
   "${modID}:Strike_TheFortress": {
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:Defend_TheFortress": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:DrawYourShield": {
+    "NAME": "Draw Your Shield",
+    "DESCRIPTION": "Draw a card for every !M! Block."
   }
 }

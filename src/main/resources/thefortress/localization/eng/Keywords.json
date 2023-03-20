@@ -21,20 +21,6 @@
     "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest should use _ to replace spaces and be entirely lowercase. In card text, you'll use the underscore versions."
   },
   {
-    "PROPER_NAME": "Cracked",
-    "NAMES": [
-      "cracked"
-    ],
-    "DESCRIPTION": "#ySkilled attacks deal double damage."
-  },
-  {
-    "PROPER_NAME": "Skilled",
-    "NAMES": [
-      "skilled"
-    ],
-    "DESCRIPTION": "Attacks marked with Skilled deal double damage when you are #yCracked."
-  },
-  {
     "PROPER_NAME": "Poison Armour",
     "NAMES": [
       "Poison Armour",
