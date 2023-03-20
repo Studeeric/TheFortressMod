@@ -25,6 +25,7 @@ import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import thefortress.cards.attacks.Strike_TheFortress;
 import thefortress.cards.attacks.TacticalAttack;
 import thefortress.cards.powers.PoisonousLayer;
+import thefortress.cards.skills.Defend_TheFortress;
 import thefortress.cards.skills.EnergyDrink;
 import thefortress.relics.TheShield;
 
@@ -89,10 +90,8 @@ public class TheFortress extends CustomPlayer {
 
         for (int i = 0; i < 4; i++) {
             retVal.add(Strike_TheFortress.ID);
+            retVal.add(Defend_TheFortress.ID);
         }
-        retVal.add(Defend_Blue.ID);
-        retVal.add(Defend_Blue.ID);
-        retVal.add(Neutralize.ID);
         retVal.add(TacticalAttack.ID);
         retVal.add(EnergyDrink.ID);
         retVal.add(PoisonousLayer.ID);

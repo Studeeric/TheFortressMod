@@ -45,9 +45,6 @@ public class TacticalAttack extends BaseCard{
 
         setDamage(DAMAGE, UPG_DAMAGE);
         setBlock(BLOCK, UPG_BLOCK);
-
-        tags.add(CustomTags.SKILLED);
-
     }
 
     @Override
